@@ -1,0 +1,9 @@
+apiVersion: apps.yeongki.dev/v1
+kind: SimpleApp
+metadata:
+  labels:
+    app.kubernetes.io/name: simpleapp-operator
+    app.kubernetes.io/managed-by: kustomize
+  name: simpleapp-sample
+spec:
+  # TODO(user): Add fields here
